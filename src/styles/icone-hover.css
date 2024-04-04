@@ -1,0 +1,75 @@
+.edit-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/edit hover.svg");
+    border-radius: 7px !important;
+}
+
+.edit-icone:hover img {
+    opacity: 0;
+}
+
+.delete-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/delete red hover.svg");
+    border-radius: 7px !important;
+}
+
+.delete-icone:hover img {
+    opacity: 0;
+}
+
+.view-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/view hover.svg");
+    border-radius: 7px !important;
+}
+
+.view-icone:hover img {
+    opacity: 0;
+}
+
+.download-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/download green hover.svg");
+    border-radius: 7px !important;
+}
+
+.download-icone:hover img {
+    opacity: 0;
+}
+.refresh-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/refresh hover.svg");
+    border-radius: 7px !important;
+}
+
+.refresh-icone:hover img {
+    opacity: 0;
+}
+.email-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/email hover.svg");
+    border-radius: 7px !important;
+}
+
+.email-icone:hover img {
+    opacity: 0;
+}
+.link-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/link  hover.svg");
+    border-radius: 7px !important;
+}
+
+.link-icone:hover img {
+    opacity: 0;
+}
+.pdf-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/view pdf hover.svg");
+    border-radius: 7px !important;
+}
+
+.pdf-icone:hover img {
+    opacity: 0;
+}
+.allocationdis-icone:hover {
+    background-image: url("../../src/assets/fornt-icons/allocation distributor hover.svg");
+    border-radius: 7px !important;
+}
+
+.allocationdis-icone:hover img {
+    opacity: 0;
+}

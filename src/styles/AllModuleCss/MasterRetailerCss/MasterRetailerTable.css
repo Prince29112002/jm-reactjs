@@ -1,0 +1,33 @@
+.Table_UI thead tr:first-child th:first-child {
+    border-radius: 7px 0 0 0 !important;
+    padding-left: 0px !important;
+    text-align: center !important;;
+}
+
+.Table_UI thead tr:first-child th:last-child {
+    border-radius: 0 7px 0 0 !important;
+    padding-right: 0px !important;
+    text-align: center !important;
+}
+
+.Table_UI th:nth-child(2) {
+    text-align: center !important;
+}
+.Table_UI th:nth-child(3) {
+    text-align: center !important;
+}
+
+.Table_UI tr td:first-child {
+    padding-left: 0px !important;
+    text-align: center !important;
+}
+
+.Table_UI tr td:nth-child(2) {
+    text-align:center !important;
+}
+.Table_UI tr td:nth-child(3) {
+    text-align: center !important;
+}
+.Table_UI tr td:last-child {
+    text-align: center !important;
+}

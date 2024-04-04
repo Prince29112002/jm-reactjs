@@ -1,0 +1,19 @@
+.text-left{
+    text-align: left !important;
+    padding-right: 0px !important;
+}
+.image_div{
+    width: 27%;
+    padding-top: 70px;
+}
+.table_width{
+    width: 100% !important;
+}
+.btn-show-less>.csvbutton{
+    width: 92px !important;
+    color: white;
+    background-color: #415BD4 !important;
+}
+.padding{
+    padding-left: 10px !important;
+}

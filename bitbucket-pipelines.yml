@@ -1,0 +1,29 @@
+image: node:14.17.6
+pipelines:
+  # default - contains the steps that will run on every push.
+  # default:
+  branches:
+   # You can include your custom branches and the steps you'd like to undertake e.g. testing
+   #staging:
+   dev:
+    - step:
+       name: Deploy to uat
+       deployment: production
+       script:
+         - pipe: atlassian/ssh-run:0.2.2
+           variables:
+             SSH_USER: 'ubuntu'
+             SERVER: "3.109.149.154"
+             COMMAND: '/var/www/dev/jm_react_server_deploy.sh'
+             
+   main-jm:
+    - step:
+       name: Deploy to production
+       deployment: production
+       script:
+         - pipe: atlassian/ssh-run:0.2.2
+           variables:
+             SSH_USER: 'ubuntu'
+             SERVER: "3.109.149.154"
+             COMMAND: '/var/www/prod/jm_react_server_deploy.sh'
+  

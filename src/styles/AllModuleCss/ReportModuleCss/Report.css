@@ -1,0 +1,28 @@
+.csvbutton{
+    width: 86px;
+    height: 37px;
+    background: #415BD4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    float: right;
+}
+.csvbuttontext{
+    letter-spacing: 0.06px;
+    color: #FFFFFF !important;
+    text-decoration: none !important;
+}
+.csvbutton:hover{
+    background: #54E6A2 0% 0% no-repeat padding-box;
+    opacity: 1
+}
+.report-fullwidth-title.MuiGrid-spacing-xs-4{
+    width: calc(100% + -20px);
+    margin: -16px;
+}
+
+/* table CSS */
+.report_table{
+    margin-top: 10px;
+}
+.report_table_header{
+    margin-bottom: 10px;
+}
